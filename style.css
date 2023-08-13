@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, #0c0b0b , #272827)
+   
+   
+}
+
+.calculator{
+    border: 2px solid rgb(214, 179, 179);
+    padding: 20px;
+    border-radius: 20px;
+    background: transparent;
+    box-shadow: 10px 3px 15px rgb(126, 90, 90);
+    
+}
+button:hover {
+    background-color: rgb(126, 196, 226);
+    }
+
+input{
+    width: 320px;
+    border: 10px;
+    border-radius: 16px;
+
+    padding: 24px;
+    margin: 10px;
+    background: rgb(159, 153, 159);
+    box-shadow: 0px 3px 10px rgb(17, 18, 16);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color:#666363
+
+}
+
+button{
+    border: none;;
+    width:60px;
+    height: 60px;
+    margin: 10px;
+    border-radius:20%;
+    
+    background:transparent;
+    color: #ffffff;
+    font-size: 20pxs;
+    box-shadow: 0px 3px 10px rgb(86, 91, 60);
+    cursor:pointer;
+    background-color: rgb(79, 115, 127);
+}
+.clear{
+    background-color: rgb(157, 91, 55);
+}
+.equalBtn{
+    background-color: rgb(230, 58, 32);
+
+}
+.operator{
+    background-color: rgb(157, 91, 55);
+    color: rgb(243, 238, 238);
+}
+.ac{
+    background-color: rgb(144, 78, 43);
+    color: rgb(243, 238, 238);
+
+}
+button.ac:hover{
+    background-color: rgb(237, 158, 116);
+}
+button.operator:hover{
+    background-color: rgb(237, 158, 116);
+}
+button.equalBtn:hover{
+    background-color: rgb(173, 28, 18);
+}
+button.clear:hover{
+    background-color: rgb(237, 158, 116);
+}
